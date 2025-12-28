@@ -1,0 +1,11 @@
+// Complete the solution so that it reverses the string passed into it.
+
+// 'world'  =>  'dlrow'
+// 'word'   =>  'drow'
+
+function reverse(str){
+    return str.split("").reverse().join("");
+}
+
+let str = "hello";
+console.log(reverse(str));
